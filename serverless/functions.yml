@@ -1,0 +1,7 @@
+hello:
+  name: saludo
+  handler: src/handler.hello
+  events:
+    - http:
+        path: /hello
+        method: get

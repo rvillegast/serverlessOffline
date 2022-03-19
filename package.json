@@ -1,0 +1,22 @@
+{
+  "name": "lolo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "serverless --config serverless.debug.yml",
+    "serverless-offline": "node node_modules/serverless/bin/serverless --config serverless.debug.yml offline start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.1062.0",
+    "jest": "^27.5.1",
+    "serverless": "^2.72.2",
+    "serverless-offline": "^8.3.1",
+    "serverless-s3-local": "^0.6.22"
+  },
+  "dependencies": {}
+}
